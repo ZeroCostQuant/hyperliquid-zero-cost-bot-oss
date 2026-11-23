@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hyperliquid-zero-cost-bot",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-14",
+  "observability": {
+    "enabled": true
+  },
+  "triggers": {
+    "crons": [
+      "10 * * * *",
+      "5 0 * * *"
+    ]
+  },
+  "vars": {
+    "INITIAL_CAPITAL_USD": "10000"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "hl_zero_cost_bot_db",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+    }
+  ]
+}
