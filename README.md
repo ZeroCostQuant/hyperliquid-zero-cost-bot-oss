@@ -13,6 +13,7 @@ Run a 24/7 **zero-server-cost (\$0/month)** crypto monitoring & paper-trading in
 - **24/7 Exchange Announcement Monitor** (Binance / Upbit public feeds, scored 0–100 with D1 deduplication)
 - **Telegram Channel Broadcast** (automated daily logs for build-in-public transparency)
 - **Fail-Closed Admin API** (`GET /health`, `GET /status`, `POST /run/radar`, `POST /run/paper`)
+- **Free AI Verification Skill** (`skills/crypto-strategy-stress-test/SKILL.md`) — Drop into Claude Code, Antigravity, or Codex to stress-test any trading idea against 0.15%/2x fees, OOS splits, ±20% perturbation, Payoff Ratio (`p`), Daily VaR(95%), and 20 random monkeys before risking real capital.
 
 > Looking for the full production execution kit (Hyperliquid non-custodial Agent Wallet order execution, Kill Switch, notional caps, and the 10-strategy stress-testing suite)? Details are shared via the newsletter above.
 
